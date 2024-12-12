@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدونة مزرعة التمور</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #8b4513;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .intro {
+            text-align: center;
+            padding: 30px;
+            color: #4b3621;
+        }
+        .content {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            background-color: #8b4513;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .image-gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .image-gallery img {
+            width: 30%;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            margin: 20px 0;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        /* Styling for the embedded map */
+        .map-container {
+            width: 100%;
+            height: 400px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مدونة مزرعة التمور</h1>
+        <p>اكتشفوا جمال التمور الطبيعية من مزرعتنا</p>
+    </header>
+
+    <section class="intro">
+        <h2>مرحبًا بكم في مزرعتنا للتمور</h2>
+        <p>هنا في مزرعتنا، نقدم لكم أفضل أنواع التمور المزروعة بعناية فائقة. نأمل أن تجدوا كل ما يرضي ذوقكم في مجموعة التمور لدينا.</p>
+        <a href="#content" class="btn">استكشاف المزيد</a>
+    </section>
+
+    <section class="content" id="content">
+        <h2>أنواع التمور لدينا</h2>
+        <p>نقدم في مزرعتنا مجموعة متنوعة من التمور ذات الجودة العالية، مثل:  
+        - تمور الخلاص: تتميز بمذاقها الحلو والملمس الطري.  
+        - تمور السكري: تمور لذيذة وحلوة، مثالية كوجبة خفيفة.  
+        - تمور المجدول: من أشهر أنواع التمور التي تحتوي على طعم غني ومغذٍ.  
+        </p>
+
+        <h3>صور لتمورنا</h3>
+        <div class="image-gallery">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.KYkbAS5jVz24vHF3tJCt0QHaGV&pid=Api&P=0&h=220"=تمور+الخلاص" alt="تمور الخلاص">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.f5QKxq2wWAMf1-UymIlheAHaHa&pid=Api&P=0&h=220"=تمور+السكري" alt="تمور السكري">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.ywi8KZiwGU1o92-jEtTlgAHaE8&pid=Api&P=0&h=220" alt="تمور المجدول">
+        </div>
+
+        <p>تمورنا لا تُعد ولا تُحصى في أصنافها، لكننا نحرص دائمًا على تقديم الأفضل والأجود لعملائنا.</p>
+
+        <!-- Embed Google Map -->
+        <h3>موقع مزرعتنا</h3>
+        <div class="map-container">
+            <!-- Replace the src with your map embed link -->
+            <iframe src="https://maps.app.goo.gl/P6op4pRvMtwjvaGu5?g_st=ic" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 مزرعة التمور - جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
